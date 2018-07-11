@@ -1,21 +1,25 @@
-.mainheading{
+mainheading{
     text-align:center;
     
 }
-body {background-image:url("https://pixabay.com/en/clouds-sky-field-sunflower-65347/");
+body{
+    background-image:url("https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350.jpg");
+    background-size:cover;
     text-align:center;
-    font-size:100%;
-       background-size:cover;
+    background-repeat: no-repeat;
+    background-color: yellow;
+      }   
+
       
-      
-}
+
 ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
+    background-color: #333
     
 }
-nav-bar{
+#nav-bar{
     list-style: none;
     margin: 0;
     padding: 0;

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Select Product</title>
+        <link rel="stylesheet" href="Shop_pages.css" type="text/css" />
+        </head>
+        <body>
+           <!--Nav Bar-->
+        <ul>
+         <li><a href="CV/cvpage1.html">Curriculum Vitae</a></li>
+        <li><a href="Interests/sports.html">Interests</a></li>
+        <li><a href="Ebus1.html">Cloud Services Vendor</a></li>
+        <li><a href="https://github.com/EamonnRea/is1113117387396">GitHub</a></li>
+        </ul>
+        </br> 
+        </br>
+        <label for="salesforce">
+        <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
+        SalesForce @ $100
+        </label>
+        
+        <br>
+        
+        <label for="aws">
+        <input type="radio" id="Amazon " name="product" checked  onClick="disablebtnProceed()"/>
+        Amazon Web Services @ $300
+        </label>
+        
+        <br>
+        
+        <label for="cloud9">
+        <input type="radio" id="cloud9" name="product" checked  onClick="disablebtnProceed()"/>
+        Cloud9 @ $200
+        </label>
+           
+           <br>
+           
+           <label for="gmail">
+        <input type="radio" id="gmail" name="product" checked  onClick="disablebtnProceed()"/>
+        Gmail @ $400
+        </label> 
+         <br>
+         <br>
+            <!--subtotal-->
+        <label for="subtotal">
+            Sub Total
+        <input type="text" id="subtotal" name="subtotal" value="0.00"  readonly/>
+         
+        </label>
+            
+        <br>
+        <!--discount-->
+        <label for="discount">
+        Discount @ 5%
+        <input type="text" id="discount" name="discount" value="0.00"  readonly/>
+        
+         <br>
+         (- Discount)
+        </label>
+            
+            <br>
+            <!--vat-->
+        <label for="vat">
+         VAT @ 10%
+        <input type="text" id="vat" name="vat" value="0.00"  readonly/>
+         
+         
+        </label>
+             <br>
+         <label for= "total">
+        Total
+        <input type="text" id="total" name="total" value="0.00"  readonly/>
+       
+        <br>
+        (- discount + VAT)
+        </label>
+        
+         <a role="button" href="Ebus1.html" class="btn btn-success"> Clear Choice</a>
+          <button id="calculate" onClick="calcSub()">Calculate Cost</button>
+            <br>
+         
+        </body>
+        
