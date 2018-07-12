@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Select Product</title>
-        <link rel="stylesheet" href="Shop_pages.css" type="text/css" />
-        </head>
-        <body>
-           <!--Nav Bar-->
-        <ul>
-         <li><a href="CV/cvpage1.html">Curriculum Vitae</a></li>
-        <li><a href="Interests/sports.html">Interests</a></li>
-        <li><a href="Ebus1.html">Cloud Services Vendor</a></li>
-        <li><a href="https://github.com/EamonnRea/is1113117387396">GitHub</a></li>
-        </ul>
-        </br> 
-        </br>
+        <title>Select Product</title>
+         <link rel="stylesheet" href="../mystylesheet.css" type="text/css" />
+         
+         <script type="text/javascript" src="cost_calc.js"></script>
+         </head>
+        
+         <body>
+          <h1 style="text-align:center" class="mainheading">Select Product</h1>
         <label for="salesforce">
         <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
         SalesForce @ $100
@@ -75,9 +70,9 @@
         (- discount + VAT)
         </label>
         
-         <a role="button" href="Ebus1.html" class="btn btn-success"> Clear Choice</a>
-          <button id="calculate" onClick="calcSub()">Calculate Cost</button>
+         <button onClick="calcSub()">Calculate Cost</button>
+        <a role="button" href="ebus1.html">Clear Choice</a>
             <br>
          
         </body>
-        
+        </html>
