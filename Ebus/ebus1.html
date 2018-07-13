@@ -17,29 +17,32 @@
         </ul>
         </br>
           <h1 style="text-align:center" class="mainheading">Select Product</h1>
+         
+         
+          <form action="" method"POST"
         <label for="salesforce">
-        <input type="radio" id="salesforce" name="product" checked=checked
+        <input type="radio" id="salesforce" name="product" ></input>
         SalesForce @ $100
         </label>
         
         <br>
         
         <label for="aws">
-        <input type="radio" id="Amazon " name="product" checked=checked
+        <input type="radio" id="Amazon " name="product"></input>
         Amazon Web Services @ $300
         </label>
         
         <br>
         
         <label for="cloud9">
-        <input type="radio" id="cloud9" name="product" checked=checked
+        <input type="radio" id="cloud9" name="product"></input>
         Cloud9 @ $200
         </label>
            
            <br>
            
            <label for="gmail">
-        <input type="radio" id="gmail" name="product" checked=checked 
+        <input type="radio" id="gmail" name="product"></input>
         Gmail @ $400
         </label> 
          <br>
@@ -78,7 +81,11 @@
         (- discount + VAT)
         </label>
         
-         <button onClick="calcSub()">Calculate Cost</button>
+        </form>
+         <div class="calculate-cost" id ="calculate-cost">
+              <button onClick="calcSub()" > Calculate Cost</button> 
+              </div>
+         </br>
         <a role="button" href="ebus1.html">Clear Choice</a>
             <br>
          

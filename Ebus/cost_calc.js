@@ -2,22 +2,22 @@
 
 function calcSub(){
     
-    var argSubTotal;
+    var parmSubTotal;
     
-    if(document.getElementById('salesforce').checked) {
-      argSubTotal = 100;
+    if(document.getElementById('salesforce').click) {
+      parmSubTotal = 100;
     }
-    if (document.getElementById('cloud9').checked){
-      argSubTotal = 200;
+    if (document.getElementById('cloud9').click){
+      parmSubTotal = 200;
     }
-    if (document.getElementById('aws').checked){
-      argSubTotal = 300;
+    if (document.getElementById('aws').click){
+      parmSubTotal = 300;
     }
-    if(document.getElementById('gmail').checked) {
-      argSubTotal = 400;;
+    if(document.getElementById('gmail').click) {
+      parmSubTotal = 400;;
     }
-    display(argSubTotal);
-    calcDisVatTotal(argSubTotal);
+    display(parmSubTotal);
+    calcDisVatTotal(parmSubTotal);
 }
 
 
